@@ -1,9 +1,0 @@
-
-
-def palindromeCheck():
-	return str(n) == str(n)[::-1]
-
-
-if __name__ == '__main__':
-	if not palindromeCheck(9009):
-		return AssertionError("Dude is Palindrome man...")
